@@ -1,0 +1,31 @@
+.parentcard {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-left: 280px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.minicard {
+    flex: 1 1 calc(25% - 16px);
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: rgba(0, 0, 0, 0.011);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.prodimage {
+    width: 90px;
+    height: 90px;
+}
+.title {
+    padding: 10px;
+    font-weight: 400;
+}
